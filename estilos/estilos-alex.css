@@ -1,0 +1,34 @@
+.normal {
+    width: 250px;
+    border: 2px solid #000;
+    text-align: center;
+  }
+.normal th, .normal td {
+    border: 1px solid #000;
+  }
+.normal2 {
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+  }
+.normal2 th, .normal2 td {
+    border: 1px solid #000;
+  }
+
+.contenedor1{
+    background-color: rgb(87, 206, 206);
+    margin: 25px 100px 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorh{
+    background-color: #000;
+    margin: -20px 0px 50px 0px;
+    color: white;
+    font-family: "Roboto";
+}
+.subtitulo{
+    text-align: center;
+}
