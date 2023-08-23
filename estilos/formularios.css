@@ -85,10 +85,6 @@ input:focus{
     border:1px solid blue;
 }
 
-input:hover{
-    border:1px solid blue;
-}
-
 .input-48{
     width: 48%;
 
