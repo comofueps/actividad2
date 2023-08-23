@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    background: #235780;
+}
+
+#header {
+    /* margin: -20 0 0 10; */
+    margin: -20px 20px 0px 0px;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+}
+
+#volver{
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+#volver:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#titulo {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.formulario{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+#form_titulo{
+    background-color: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 100;
+}
+
+.contenedor{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap; /* para que los elementos que no quepan, se pongan hacia abajo */
+    justify-content: space-between; 
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:1px solid darkgray;
+    outline: none;
+}
+
+input:focus{
+    border:1px solid blue;
+}
+
+input:hover{
+    border:1px solid blue;
+}
+
+.input-48{
+    width: 48%;
+
+}
+.input-100{
+    width: 100%;
+}
+
+.btn-registrar{
+    background-color: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;    
+}
+
+.btn-registrar:hover{
+    cursor: pointer;
+}
+
+.form_link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
