@@ -10,12 +10,13 @@
     <header class="contenedorh" >
         <h2>Actividad 2 - Tablas</h2>
     </header>
+<a href="../index.html">Volver</a>
 
     <h3 class="subtitulo">Tabla por defecto</h3>
 
     <div class="contenedor1">
         
-        <table class="normal" summary="Tabla genérica">
+        <table id="tabla" summary="Tabla genérica">
             <tr>
             <th scope="col">A</th>
             <th scope="col">B</th>
@@ -55,10 +56,10 @@
         
     </div>
 
-    <h3 class="subtitulo">Tabla con border collapse</h3>
+    <h3 class="subtitulo">Tabla con border-collapse</h3>
 
     <div class="contenedor1">
-        <table class="normal2" summary="Tabla genérica">
+        <table id="tabla2" summary="Tabla genérica">
             <tr>
             <th scope="col">A</th>
             <th scope="col">B</th>
@@ -97,5 +98,166 @@
         </table>
     </div>
 
+    <h3 class="subtitulo">Tabla con border-spacing</h3>
+
+    <div class="contenedor1">
+        <table id="tabla3" summary="Tabla genérica">
+            <tr>
+            <th scope="col">A</th>
+            <th scope="col">B</th>
+            <th scope="col">C</th>
+            <th scope="col">D</th>
+            <th scope="col">E</th>
+            </tr>
+            <tr>
+                <th scope="col">a</th>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="col">b</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th scope="col">c</th>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="col">d</th>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    
+    <h3 class="subtitulo">Celdas vacías por defecto vs celdas vacías con atributo hide</h3>
+
+    <div class="contenedor1">
+        <table class="tabla4" summary="Tabla genérica">
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <table id="tabla5" summary="Tabla genérica">
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    
+    <h3 class="subtitulo">Probando caption y caption-side</h3>
+
+    <div class="contenedor1">
+        <table class="tabla4" summary="Tabla genérica">
+            <caption>Título sin modificar</caption>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <table id="tabla6" summary="Tabla genérica">
+            <caption>Título modificado</caption>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <h3 class="subtitulo"> Realizando Actividad 8</h3>
+    <div class="contenedor1">
+        <table id="tabla7" summary="Tabla genérica">
+            <tr>
+            <th class="th2" scope="col">Cambio</th>
+            <th class="th2" scope="col">Compra</th>
+            <th class="th2" scope="col">Venta</th>
+            <th class="th2" scope="col">Máximo</th>
+            <th class="th2" scope="col">Mínimo</th>
+            </tr>
+            <tr class="tr1">
+                <th class="th1" scope="col"> <img class="imagen" src="../imagenes-alex/Euro.png">Euro/Dolar</th>
+                <td>1.2524</td>
+                <td>1.2527</td>
+                <td>1.2539</td>
+                <td>1.2488</td>
+            </tr>
+            <tr>
+                <th class="th1" scope="col"> <img class="imagen" src="../imagenes-alex/dolar.png">Dolar/Yen</th>
+                <td>119.01</td>
+                <td>119.05</td>
+                <td>119.82</td>
+                <td>119.82</td>
+            </tr>
+            <tr class="tr1">
+                <th class="th1" scope="col"> <img class="imagen" src="../imagenes-alex/libra.png">Libra/Dolar</th>
+                <td>1.8606</td>
+                <td>1.8611</td>
+                <td>1.8651</td>
+                <td>1.8522</td>
+            </tr>
+            <tr>
+                <th class="th1" scope="col"> <img class="imagen" src="../imagenes-alex/yen.png">Yen/Euro</th>
+                <td>0.6711</td>
+                <td>0.6705</td>
+                <td>0.6676</td>
+                <td>0.6713</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
