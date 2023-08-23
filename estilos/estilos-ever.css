@@ -1,5 +1,23 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: antiquewhite;
+    font-family: 'Roboto';
+}
+
+#header{
+    /* margin: -20 0 0 10; */
+    margin: -20px 20px 0px 0px;
+    background-color: black;
+    color:#fff;
+    height: 50px;
+    width: 100%;
+    
+}
+
+#titulo{
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
 #camp1 {

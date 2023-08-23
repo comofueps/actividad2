@@ -1,101 +1,144 @@
-#tabla {
-    width: 250px;
-    border: 2px solid #000;
-    text-align: center;
-  }
-#tabla th, #tabla td {
-    border: 1px solid #000;
-  }
-#tabla2 {
-    width: 250px;
-    border: 2px solid black;
-    text-align: center;
-    border-collapse: collapse;
-  }
-#tabla2 th, #tabla2 td {
-    border: 1px solid #000;
-  }
-#tabla3 {
-    width: 250px;
-    border: 2px solid black;
-    text-align: center;
-    border-spacing: 0px;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
 }
 
-#tabla3 th, #tabla3 td {
-    border: 1px solid #000;
-  }
+#header{
+  /* margin: -20 0 0 10; */
+  margin: -20px 20px 0px 0px;
+  background-color: black;
+  color:#fff;
+  height: 50px;
+  width: 100%;
+
+}
+
+#titulo{
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+#tabla {
+  width: 250px;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+#tabla th,
+#tabla td {
+  border: 1px solid #000;
+}
+
+#tabla2 {
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#tabla2 th,
+#tabla2 td {
+  border: 1px solid #000;
+}
+
+#tabla3 {
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  border-spacing: 0px;
+}
+
+#tabla3 th,
+#tabla3 td {
+  border: 1px solid #000;
+}
 
 .tabla4 {
-    width: 250px;
-    text-align: center;
-    border-collapse: separate;
-    margin-right: 25px;
+  width: 250px;
+  text-align: center;
+  border-collapse: separate;
+  margin-right: 25px;
 }
-.tabla4 th, .tabla4 td {
-    border: 1px solid #000;
-  }
-#tabla5 {
-    width: 250px;
-    text-align: center;
-    empty-cells: hide;
-    border-collapse: separate;
-    margin-left: 25px;
-}
-#tabla5 th, #tabla5 td {
-    border: 1px solid #000;
-  }
 
-  #tabla6 {
-    caption-side: bottom;
-    width: 250px;
-    text-align: center;
-    border-collapse: separate;
-    margin-left: 25px;
+.tabla4 th,
+.tabla4 td {
+  border: 1px solid #000;
 }
-#tabla6 th, #tabla6 td {
-    border: 1px solid #000;
-  }
-#tabla7{
+
+#tabla5 {
+  width: 250px;
+  text-align: center;
+  empty-cells: hide;
+  border-collapse: separate;
+  margin-left: 25px;
+}
+
+#tabla5 th,
+#tabla5 td {
+  border: 1px solid #000;
+}
+
+#tabla6 {
+  caption-side: bottom;
+  width: 250px;
+  text-align: center;
+  border-collapse: separate;
+  margin-left: 25px;
+}
+
+#tabla6 th,
+#tabla6 td {
+  border: 1px solid #000;
+}
+
+#tabla7 {
   width: 400px;
   border: 2px solid black;
   text-align: center;
   font-family: Arial;
   border-collapse: collapse;
 }
-#tabla7 th, #tabla7 td {
+
+#tabla7 th,
+#tabla7 td {
   border: 1px solid #000;
 }
+
 .th1 {
   background-color: #E6F3FF;
   border: 1px solid #000;
 }
-.th2{
+
+.th2 {
   background-color: #b0b1b3;
   border: 1px solid #000;
 }
+
 .tr1 {
   border: 1px solid #000;
   background-color: #FFFFCC;
 }
 
-.contenedor1{
-    margin: 25px 100px 25px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contenedor1 {
+  margin: 25px 100px 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contenedorh{
-    background-color: #000;
-    margin: -20px 0px 20px 0px;
-    color: white;
-    font-family: "Roboto";
+.contenedorh {
+  background-color: #000;
+  margin: -20px 0px 20px 0px;
+  color: white;
+  font-family: "Roboto";
 }
-.subtitulo{
-    text-align: center;
+
+.subtitulo {
+  text-align: center;
 }
-.imagen{
+
+.imagen {
   width: 25px;
   height: 15px;
 }
